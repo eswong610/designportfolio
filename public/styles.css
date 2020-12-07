@@ -10,9 +10,21 @@ body {
   font-family: "EB Garamond", serif !important;
 }
 
+.connect-text{
+  font-family: "EB Garamond", serif !important;
+}
+
 .logo-img {
   height: 5rem;
   width: auto;
+}
+.fa:hover{
+  color: grey;
+}
+
+.btn-primary{
+  background-color: rgb(190, 49, 49)!important;
+  border: none!important;
 }
 
 .logo-container {
@@ -133,6 +145,20 @@ body .container .inside3 {
   background: #D9C697;
   -webkit-animation: slide3 2s ease-in-out;
           animation: slide3 2s ease-in-out;
+}
+
+body .about-img {
+  width: 10rem;
+  border-radius: 50% 50%;
+}
+
+.about-skill-container{
+  max-height: 78%;
+  overflow: scroll;
+}
+
+.list-group-item {
+  background-color: transparent!important;
 }
 
 @-webkit-keyframes slide1 {
@@ -262,8 +288,8 @@ body .container .inside3 {
 }
 
 .flip-in-ver-right {
-  -webkit-animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: flip-in-ver-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: flip-in-ver-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: flip-in-ver-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 /* ----------------------------------------------
@@ -309,8 +335,8 @@ body .container .inside3 {
 }
 
 .fade-in-fwd {
-  -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 /* ----------------------------------------------
